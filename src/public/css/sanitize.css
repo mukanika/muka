@@ -8,7 +8,11 @@
 *,
 ::before,
 ::after {
+<<<<<<< HEAD
 box-sizing: border-box;
+=======
+  box-sizing: border-box;
+>>>>>>> 1d5a0c1 (ファイル追加)
 }
 
 /**
@@ -18,8 +22,15 @@ box-sizing: border-box;
 
 ::before,
 ::after {
+<<<<<<< HEAD
 vertical-align: inherit; /* 2 */
 text-decoration: inherit; /* 1 */
+=======
+  vertical-align: inherit;
+  /* 2 */
+  text-decoration: inherit;
+  /* 1 */
+>>>>>>> 1d5a0c1 (ファイル追加)
 }
 
 /**
@@ -33,6 +44,7 @@ text-decoration: inherit; /* 1 */
 */
 
 html {
+<<<<<<< HEAD
 word-break: break-word; /* 6 */
 -moz-tab-size: 4; /* 3 */
 tab-size: 4; /* 3 */
@@ -42,6 +54,26 @@ cursor: default; /* 1 */
 -webkit-tap-highlight-color: transparent /* 4 */;
 -ms-text-size-adjust: 100%; /* 5 */
 -webkit-text-size-adjust: 100%; /* 5 */
+=======
+  word-break: break-word;
+  /* 6 */
+  -moz-tab-size: 4;
+  /* 3 */
+  tab-size: 4;
+  /* 3 */
+  line-height: 1.5;
+  /* 2 */
+  cursor: default;
+  /* 1 */
+
+  -webkit-tap-highlight-color: transparent
+    /* 4 */
+  ;
+  -ms-text-size-adjust: 100%;
+  /* 5 */
+  -webkit-text-size-adjust: 100%;
+  /* 5 */
+>>>>>>> 1d5a0c1 (ファイル追加)
 }
 
 /* Sections
@@ -52,7 +84,11 @@ cursor: default; /* 1 */
 */
 
 body {
+<<<<<<< HEAD
 margin: 0;
+=======
+  margin: 0;
+>>>>>>> 1d5a0c1 (ファイル追加)
 }
 
 /**
@@ -61,8 +97,13 @@ margin: 0;
 */
 
 h1 {
+<<<<<<< HEAD
 margin: 0.67em 0;
 font-size: 2em;
+=======
+  margin: 0.67em 0;
+  font-size: 2em;
+>>>>>>> 1d5a0c1 (ファイル追加)
 }
 
 /* Grouping content
@@ -77,7 +118,11 @@ dl ol,
 dl ul,
 ol dl,
 ul dl {
+<<<<<<< HEAD
 margin: 0;
+=======
+  margin: 0;
+>>>>>>> 1d5a0c1 (ファイル追加)
 }
 
 /**
@@ -88,7 +133,11 @@ ol ol,
 ol ul,
 ul ol,
 ul ul {
+<<<<<<< HEAD
 margin: 0;
+=======
+  margin: 0;
+>>>>>>> 1d5a0c1 (ファイル追加)
 }
 
 /**
@@ -97,8 +146,15 @@ margin: 0;
 */
 
 hr {
+<<<<<<< HEAD
 overflow: visible; /* 2 */
 height: 0; /* 1 */
+=======
+  overflow: visible;
+  /* 2 */
+  height: 0;
+  /* 1 */
+>>>>>>> 1d5a0c1 (ファイル追加)
 }
 
 /**
@@ -106,7 +162,11 @@ height: 0; /* 1 */
 */
 
 main {
+<<<<<<< HEAD
 display: block;
+=======
+  display: block;
+>>>>>>> 1d5a0c1 (ファイル追加)
 }
 
 /**
@@ -115,8 +175,13 @@ display: block;
 
 nav ol,
 nav ul {
+<<<<<<< HEAD
 padding: 0;
 list-style: none;
+=======
+  padding: 0;
+  list-style: none;
+>>>>>>> 1d5a0c1 (ファイル追加)
 }
 
 /**
@@ -125,8 +190,15 @@ list-style: none;
 */
 
 pre {
+<<<<<<< HEAD
 font-size: 1em; /* 2 */
 font-family: monospace, monospace; /* 1 */
+=======
+  font-size: 1em;
+  /* 2 */
+  font-family: monospace, monospace;
+  /* 1 */
+>>>>>>> 1d5a0c1 (ファイル追加)
 }
 
 /* Text-level semantics
@@ -137,7 +209,11 @@ font-family: monospace, monospace; /* 1 */
 */
 
 a {
+<<<<<<< HEAD
 background-color: transparent;
+=======
+  background-color: transparent;
+>>>>>>> 1d5a0c1 (ファイル追加)
 }
 
 /**
@@ -145,8 +221,13 @@ background-color: transparent;
 */
 
 abbr[title] {
+<<<<<<< HEAD
 text-decoration: underline;
 text-decoration: underline dotted;
+=======
+  text-decoration: underline;
+  text-decoration: underline dotted;
+>>>>>>> 1d5a0c1 (ファイル追加)
 }
 
 /**
@@ -155,7 +236,11 @@ text-decoration: underline dotted;
 
 b,
 strong {
+<<<<<<< HEAD
 font-weight: bolder;
+=======
+  font-weight: bolder;
+>>>>>>> 1d5a0c1 (ファイル追加)
 }
 
 /**
@@ -166,8 +251,15 @@ font-weight: bolder;
 code,
 kbd,
 samp {
+<<<<<<< HEAD
 font-size: 1em; /* 2 */
 font-family: monospace, monospace; /* 1 */
+=======
+  font-size: 1em;
+  /* 2 */
+  font-family: monospace, monospace;
+  /* 1 */
+>>>>>>> 1d5a0c1 (ファイル追加)
 }
 
 /**
@@ -175,7 +267,11 @@ font-family: monospace, monospace; /* 1 */
 */
 
 small {
+<<<<<<< HEAD
 font-size: 80%;
+=======
+  font-size: 80%;
+>>>>>>> 1d5a0c1 (ファイル追加)
 }
 
 /* Embedded content
@@ -191,7 +287,11 @@ iframe,
 img,
 svg,
 video {
+<<<<<<< HEAD
 vertical-align: middle;
+=======
+  vertical-align: middle;
+>>>>>>> 1d5a0c1 (ファイル追加)
 }
 
 /**
@@ -200,7 +300,11 @@ vertical-align: middle;
 
 audio,
 video {
+<<<<<<< HEAD
 display: inline-block;
+=======
+  display: inline-block;
+>>>>>>> 1d5a0c1 (ファイル追加)
 }
 
 /**
@@ -208,8 +312,13 @@ display: inline-block;
 */
 
 audio:not([controls]) {
+<<<<<<< HEAD
 display: none;
 height: 0;
+=======
+  display: none;
+  height: 0;
+>>>>>>> 1d5a0c1 (ファイル追加)
 }
 
 /**
@@ -217,7 +326,11 @@ height: 0;
 */
 
 iframe {
+<<<<<<< HEAD
 border-style: none;
+=======
+  border-style: none;
+>>>>>>> 1d5a0c1 (ファイル追加)
 }
 
 /**
@@ -225,7 +338,11 @@ border-style: none;
 */
 
 img {
+<<<<<<< HEAD
 border-style: none;
+=======
+  border-style: none;
+>>>>>>> 1d5a0c1 (ファイル追加)
 }
 
 /**
@@ -233,7 +350,11 @@ border-style: none;
 */
 
 svg:not([fill]) {
+<<<<<<< HEAD
 fill: currentColor;
+=======
+  fill: currentColor;
+>>>>>>> 1d5a0c1 (ファイル追加)
 }
 
 /**
@@ -241,7 +362,11 @@ fill: currentColor;
 */
 
 svg:not(:root) {
+<<<<<<< HEAD
 overflow: hidden;
+=======
+  overflow: hidden;
+>>>>>>> 1d5a0c1 (ファイル追加)
 }
 
 /* Tabular data
@@ -252,7 +377,11 @@ overflow: hidden;
 */
 
 table {
+<<<<<<< HEAD
 border-collapse: collapse;
+=======
+  border-collapse: collapse;
+>>>>>>> 1d5a0c1 (ファイル追加)
 }
 
 /* Forms
@@ -265,7 +394,11 @@ border-collapse: collapse;
 button,
 input,
 select {
+<<<<<<< HEAD
 margin: 0;
+=======
+  margin: 0;
+>>>>>>> 1d5a0c1 (ファイル追加)
 }
 
 /**
@@ -274,8 +407,15 @@ margin: 0;
 */
 
 button {
+<<<<<<< HEAD
 overflow: visible; /* 1 */
 text-transform: none; /* 2 */
+=======
+  overflow: visible;
+  /* 1 */
+  text-transform: none;
+  /* 2 */
+>>>>>>> 1d5a0c1 (ファイル追加)
 }
 
 /**
@@ -286,7 +426,11 @@ button,
 [type="button"],
 [type="reset"],
 [type="submit"] {
+<<<<<<< HEAD
 -webkit-appearance: button;
+=======
+  -webkit-appearance: button;
+>>>>>>> 1d5a0c1 (ファイル追加)
 }
 
 /**
@@ -295,8 +439,15 @@ button,
 */
 
 fieldset {
+<<<<<<< HEAD
 padding: 0.35em 0.75em 0.625em; /* 2 */
 border: 1px solid #a0a0a0; /* 1 */
+=======
+  padding: 0.35em 0.75em 0.625em;
+  /* 2 */
+  border: 1px solid #a0a0a0;
+  /* 1 */
+>>>>>>> 1d5a0c1 (ファイル追加)
 }
 
 /**
@@ -304,7 +455,11 @@ border: 1px solid #a0a0a0; /* 1 */
 */
 
 input {
+<<<<<<< HEAD
 overflow: visible;
+=======
+  overflow: visible;
+>>>>>>> 1d5a0c1 (ファイル追加)
 }
 
 /**
@@ -313,10 +468,21 @@ overflow: visible;
 */
 
 legend {
+<<<<<<< HEAD
 display: table; /* 1 */
 max-width: 100%; /* 1 */
 color: inherit; /* 2 */
 white-space: normal; /* 1 */
+=======
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  white-space: normal;
+  /* 1 */
+>>>>>>> 1d5a0c1 (ファイル追加)
 }
 
 /**
@@ -325,8 +491,15 @@ white-space: normal; /* 1 */
 */
 
 progress {
+<<<<<<< HEAD
 display: inline-block; /* 1 */
 vertical-align: baseline; /* 2 */
+=======
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */
+>>>>>>> 1d5a0c1 (ファイル追加)
 }
 
 /**
@@ -334,7 +507,11 @@ vertical-align: baseline; /* 2 */
 */
 
 select {
+<<<<<<< HEAD
 text-transform: none;
+=======
+  text-transform: none;
+>>>>>>> 1d5a0c1 (ファイル追加)
 }
 
 /**
@@ -344,9 +521,18 @@ text-transform: none;
 */
 
 textarea {
+<<<<<<< HEAD
 overflow: auto; /* 2 */
 margin: 0; /* 1 */
 resize: vertical; /* 3 */
+=======
+  overflow: auto;
+  /* 2 */
+  margin: 0;
+  /* 1 */
+  resize: vertical;
+  /* 3 */
+>>>>>>> 1d5a0c1 (ファイル追加)
 }
 
 /**
@@ -355,7 +541,11 @@ resize: vertical; /* 3 */
 
 [type="checkbox"],
 [type="radio"] {
+<<<<<<< HEAD
 padding: 0;
+=======
+  padding: 0;
+>>>>>>> 1d5a0c1 (ファイル追加)
 }
 
 /**
@@ -364,9 +554,17 @@ padding: 0;
 */
 
 [type="search"] {
+<<<<<<< HEAD
 outline-offset: -2px; /* 2 */
 
 -webkit-appearance: textfield; /* 1 */
+=======
+  outline-offset: -2px;
+  /* 2 */
+
+  -webkit-appearance: textfield;
+  /* 1 */
+>>>>>>> 1d5a0c1 (ファイル追加)
 }
 
 /**
@@ -375,7 +573,11 @@ outline-offset: -2px; /* 2 */
 
 ::-webkit-inner-spin-button,
 ::-webkit-outer-spin-button {
+<<<<<<< HEAD
 height: auto;
+=======
+  height: auto;
+>>>>>>> 1d5a0c1 (ファイル追加)
 }
 
 /**
@@ -383,8 +585,13 @@ height: auto;
 */
 
 ::-webkit-input-placeholder {
+<<<<<<< HEAD
 color: inherit;
 opacity: 0.54;
+=======
+  color: inherit;
+  opacity: 0.54;
+>>>>>>> 1d5a0c1 (ファイル追加)
 }
 
 /**
@@ -392,7 +599,11 @@ opacity: 0.54;
 */
 
 ::-webkit-search-decoration {
+<<<<<<< HEAD
 -webkit-appearance: none;
+=======
+  -webkit-appearance: none;
+>>>>>>> 1d5a0c1 (ファイル追加)
 }
 
 /**
@@ -401,9 +612,17 @@ opacity: 0.54;
 */
 
 ::-webkit-file-upload-button {
+<<<<<<< HEAD
 font: inherit; /* 2 */
 
 -webkit-appearance: button; /* 1 */
+=======
+  font: inherit;
+  /* 2 */
+
+  -webkit-appearance: button;
+  /* 1 */
+>>>>>>> 1d5a0c1 (ファイル追加)
 }
 
 /**
@@ -411,8 +630,13 @@ font: inherit; /* 2 */
 */
 
 ::-moz-focus-inner {
+<<<<<<< HEAD
 padding: 0;
 border-style: none;
+=======
+  padding: 0;
+  border-style: none;
+>>>>>>> 1d5a0c1 (ファイル追加)
 }
 
 /**
@@ -420,7 +644,11 @@ border-style: none;
 */
 
 :-moz-focusring {
+<<<<<<< HEAD
 outline: 1px dotted ButtonText;
+=======
+  outline: 1px dotted ButtonText;
+>>>>>>> 1d5a0c1 (ファイル追加)
 }
 
 /**
@@ -428,7 +656,11 @@ outline: 1px dotted ButtonText;
 */
 
 :-moz-ui-invalid {
+<<<<<<< HEAD
 box-shadow: none;
+=======
+  box-shadow: none;
+>>>>>>> 1d5a0c1 (ファイル追加)
 }
 
 /* Interactive
@@ -439,7 +671,11 @@ box-shadow: none;
 */
 
 details {
+<<<<<<< HEAD
 display: block;
+=======
+  display: block;
+>>>>>>> 1d5a0c1 (ファイル追加)
 }
 
 /*
@@ -447,6 +683,7 @@ display: block;
 */
 
 dialog {
+<<<<<<< HEAD
 position: absolute;
 right: 0;
 left: 0;
@@ -466,6 +703,27 @@ color: black;
 
 dialog:not([open]) {
 display: none;
+=======
+  position: absolute;
+  right: 0;
+  left: 0;
+  display: block;
+  margin: auto;
+  padding: 1em;
+  width: -moz-fit-content;
+  width: -webkit-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: -webkit-fit-content;
+  height: fit-content;
+  border: solid;
+  background-color: white;
+  color: black;
+}
+
+dialog:not([open]) {
+  display: none;
+>>>>>>> 1d5a0c1 (ファイル追加)
 }
 
 /*
@@ -473,7 +731,11 @@ display: none;
 */
 
 summary {
+<<<<<<< HEAD
 display: list-item;
+=======
+  display: list-item;
+>>>>>>> 1d5a0c1 (ファイル追加)
 }
 
 /* Scripting
@@ -484,7 +746,11 @@ display: list-item;
 */
 
 canvas {
+<<<<<<< HEAD
 display: inline-block;
+=======
+  display: inline-block;
+>>>>>>> 1d5a0c1 (ファイル追加)
 }
 
 /**
@@ -492,7 +758,11 @@ display: inline-block;
 */
 
 template {
+<<<<<<< HEAD
 display: none;
+=======
+  display: none;
+>>>>>>> 1d5a0c1 (ファイル追加)
 }
 
 /* User interaction
@@ -513,8 +783,15 @@ select,
 summary,
 textarea,
 [tabindex] {
+<<<<<<< HEAD
 -ms-touch-action: manipulation; /* 1 */
 touch-action: manipulation; /* 2 */
+=======
+  -ms-touch-action: manipulation;
+  /* 1 */
+  touch-action: manipulation;
+  /* 2 */
+>>>>>>> 1d5a0c1 (ファイル追加)
 }
 
 /**
@@ -522,7 +799,11 @@ touch-action: manipulation; /* 2 */
 */
 
 [hidden] {
+<<<<<<< HEAD
 display: none;
+=======
+  display: none;
+>>>>>>> 1d5a0c1 (ファイル追加)
 }
 
 /* Accessibility
@@ -533,7 +814,11 @@ display: none;
 */
 
 [aria-busy="true"] {
+<<<<<<< HEAD
 cursor: progress;
+=======
+  cursor: progress;
+>>>>>>> 1d5a0c1 (ファイル追加)
 }
 
 /*
@@ -541,7 +826,11 @@ cursor: progress;
 */
 
 [aria-controls] {
+<<<<<<< HEAD
 cursor: pointer;
+=======
+  cursor: pointer;
+>>>>>>> 1d5a0c1 (ファイル追加)
 }
 
 /*
@@ -551,7 +840,11 @@ cursor: pointer;
 
 [aria-disabled="true"],
 [disabled] {
+<<<<<<< HEAD
 cursor: not-allowed;
+=======
+  cursor: not-allowed;
+>>>>>>> 1d5a0c1 (ファイル追加)
 }
 
 /*
@@ -560,10 +853,19 @@ cursor: not-allowed;
 */
 
 [aria-hidden="false"][hidden] {
+<<<<<<< HEAD
 display: initial;
 }
 
 [aria-hidden="false"][hidden]:not(:focus) {
 position: absolute;
 clip: rect(0, 0, 0, 0);
+=======
+  display: initial;
+}
+
+[aria-hidden="false"][hidden]:not(:focus) {
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+>>>>>>> 1d5a0c1 (ファイル追加)
 }
